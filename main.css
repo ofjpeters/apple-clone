@@ -1,0 +1,339 @@
+@font-face{
+    font-family: 'san francisco', sans-serif;
+    src: url(SFNSDisplay.otf);
+}
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'san francisco', sans-serif;
+}
+body{
+    width: 100%;
+    box-sizing: border-box;
+}
+.margined-container{
+    max-width:  730px;
+     margin: auto auto;
+ }
+ .all-containers{
+     width: 100%;
+     margin: auto auto;
+ }
+a{
+    text-decoration: none;
+}
+/*
+nav-links: 832px;
+pictures: 730px;
+
+*/
+@media screen and (min-width: 730px){
+    
+    .ipads-airpods-section{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 10px;
+        overflow: hidden;
+        flex: 2;
+        padding-right: 10px;
+        padding-left: 10px;
+
+        
+    }
+    .ipad-section{
+        flex: 1;
+    }
+    .airpods-section{
+        flex: 1;
+    }
+    .ipad-image-wrapper img{
+        height: 500px;
+        object-fit: cover;
+    }
+    .airpods-image-wrapper img{
+        height: 500px;
+        object-fit: cover;
+    }
+    .healthy-adventurous-section{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 10px;
+        overflow: hidden;
+        flex: 2;
+        padding-right: 10px;
+        padding-left: 10px;
+
+    }
+    .healthy-section{
+        flex: 1;
+    }
+    .adventures-section{
+        flex: 1;
+    }
+    .image-wrapper-ahead img{
+        height: 500px;
+        object-fit: cover;
+    }
+    .awaits-image-wrapper img{
+        height: 500px;
+        object-fit: cover;
+    }
+    .ipad-daily-section{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 10px;
+        overflow: hidden;
+        flex: 2;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+    .ipad-pro-by-section{
+        flex: 1;
+    }
+    .get-daily-section{
+        flex: 1;
+    }
+    .super-image-wrapper img{
+        height: 500px;
+        object-fit: cover;
+        
+    }
+    .back-image-wrapper{
+        height: 500px;
+        object-fit: cover;
+        
+    }
+    
+}
+@media screen and (min-width: 832px){
+    .sticky-nav-bar{
+        display: none;
+    }
+    .sticky-bar{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+        position: fixed;
+        background-color: rgba(0, 0, 0, 0.8);
+        width: 100%;
+        z-index: 5;
+
+    }
+    .support-links{
+        width: 800px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        opacity: 0.8px;
+        backdrop-filter: blur(20px);
+        height: 35px;
+        padding-left: 20px;
+        padding-right: 20px;
+
+    }
+    .support-links li{
+        list-style-type: none;
+    }
+
+    .support-links p{
+        font-size: 12px;
+        line-height: 44px;
+        letter-spacing: -0.12px;
+        text-align: left;
+        color: #f5f5f7;
+        opacity: #000000 80%;
+        text-transform: capitalize;
+    }
+    .about-divs{
+        display: none;
+    }
+
+    .holiday-div {
+        position: absolute;
+        top: 70%;
+        left: 20%;
+        right: 20%;
+    }
+    .guide-div{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        top: 85%;
+        left: 20%;
+        right: 20%;
+    }
+    .new-about-all-divs{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 10px;
+    }
+    .services-section h5{
+        font-size: 12px;
+        line-height: 16px;
+        letter-spacing: 0px;
+        color: #1d1d1f;
+    }
+    .services-section p{
+        font-size: 12px;
+        line-height: 16px;
+        color: #424245;
+        letter-spacing: 0px;
+    }
+    .services-section a:hover{
+        text-decoration: underline;
+        color: #424245;
+    }
+    .services-all-divs{
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+    }
+    .records-div{
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+    }
+    .accsccibility-all-div{
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+    }
+
+    .mac-all-divs{
+        display: flex;
+        flex-direction: column;
+        gap: 11px;
+    }
+    .icoulds-divs{
+        display: flex;
+        flex-direction: column;
+        gap: 11px;
+    }
+    .accounts-div{
+        display: flex;
+        flex-direction: column;
+        gap: 11px;
+    }
+    .genius-div{
+        display: flex;
+        flex-direction: column;
+        gap: 11px;
+    }
+    .and-div{
+        display: flex;
+        flex-direction: column;
+        gap: 11px;
+    }
+    .college-div{
+        display: flex;
+        flex-direction: column;
+        gap: 11px;
+    }
+    .healthcare-div{
+        display: flex;
+        flex-direction: column;
+        gap: 11px;
+    }
+    .govermental-div{
+        display: flex;
+        flex-direction: column;
+        gap: 11px;
+    }
+    .privacy-div{
+        display: flex;
+        flex-direction: column;
+        gap: 11px;
+    }
+    .newsroom-div{
+        display: flex;
+        flex-direction: column;
+        gap: 11px;
+    }
+    .nigeria-section{
+        display: none;
+    }
+    .reserved-section{
+        display: none;
+    }
+    .legal-section{
+        display: none;
+    }
+    
+    .revied-section p{
+        font-size: 12px;
+        line-height: 16px;
+        letter-spacing: 0px;
+        color: #424245;
+    }
+    .site-section p{
+        font-size: 12px;
+        line-height: 16px;
+        letter-spacing: 0px;
+        color: #424245;
+    }
+    .site-section a:hover{
+        text-decoration: underline;
+        color: #424245;
+    }
+    .site-section{
+        display: flex;
+        gap: 20px;
+    }
+    .nigeria-div p{
+        font-size: 12px;
+        line-height: 16px;
+        letter-spacing: 0px;
+        color: #424245;
+    }
+
+
+    .map-divs{
+        max-width: 980px;
+        margin: auto auto;
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-bottom: 20px;
+        display: flex;
+        justify-content: space-between;
+    }
+}
+@media screen and (min-width: 1024px){
+    .sticky-links{
+        max-width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        opacity: 0.8px;
+        backdrop-filter: blur(20px);
+        height: 35px;
+        padding-left: 20px;
+        padding-right: 20px;
+
+    }
+    .support-links p{
+        font-size: 12px;
+        line-height: 44px;
+        letter-spacing: -0.12px;
+        text-align: left;
+        color: #f5f5f7;
+        opacity: #000000 80%;
+        text-transform: capitalize;
+    }
+    .holiday-div {
+        position: absolute;
+        top: 70%;
+        left: 20%;
+        right: 20%;
+    }
+    .guide-div{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        top: 80%;
+        left: 20%;
+        right: 20%;
+    }
+}
